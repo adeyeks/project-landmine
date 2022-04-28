@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+
+/* navbar */
+.navbar a{
+    color:coral !important;
+    text-transform: uppercase;
+}
+.navbar .nav-link:hover{
+    color:black !important;
+}
+
+
+/* banner */
+.banner{
+    background-image: url(/asset/img/smile.jpg);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 70vh;
+}
+
+.banner-text{
+    align-items: center;
+    justify-content: space-between;
+    position: absolute;
+    top:200px;
+    left:100px;
+    color:white;
+    text-transform: uppercase;
+}
+
+.banner .trans{
+    background:rgba(255, 127, 80, 0.395);
+    width: 100%;
+    height: 70vh;
+}
+
+/* sponsor */
+.p-5 .col-6 img{
+    filter:grayscale(100%)
+}
+.p-5 .col-6 img:hover{
+    filter:grayscale(0%)
+}
+
+/* about us */
+.bg-dark{
+    padding-top: 2rem;
+}
+
+.bg-dark .sid{
+    padding-top: 5rem;
+}
+
+i{
+    font-size: 1.5rem;
+}
+
+.col-12 .in i{
+    font-size: 1.5rem;
+    outline-color: coral !important;
+    outline-style: double;
+}
+
+.p-5 .row .cir{
+    border: 2px solid coral;
+    border-radius: 25px;
+    padding: .5rem 1.5rem;
+    background: transparent;
+    color: white;
+    margin-bottom: 1rem;
+}
+
+/* count */
+.red i{
+    border: 1px solid white; 
+    padding: .5rem 1rem; 
+    border-radius: 50px;
+}
+
+/* services */
+.con{
+    border:2px solid black;
+    background:black;
+}
+
+.line .dash{
+    border-bottom:3px solid coral;
+    width:30px;
+    line-height:10px;
+    top:10px;
+    left:500px;
+    margin-top:10px; 
+    margin-left:650px;
+}
+.line h2{
+    text-align: center;
+}
+
+
+/* team */
+.row .card img{
+    position: relative;
+    
+}
+.row .card .point:hover{
+    position: absolute;
+    opacity: 0.5;
+    bottom: 100px !important;
+    left:100px !important;
+    background: coral;
+    border:1px solid coral;
+    border-radius: 50px;
+    padding: .3rem .4rem; 
+}
+
+
+/* testimonial */
+.container .col-12 .space{
+    padding: 2.5rem 1.5rem;
+}
+
+/* pricing */
+.p-5 .row  .sea{
+    border:1px solid rgb(0, 32, 128);
+    padding:3rem 1.5rem;
+}
+
+.p-5 .row  .bg-white{ 
+    padding: 1rem;
+}
+
+.p-5 .row  .card-body .button{
+    border: 2px solid red;
+    padding: .5rem 1rem;
+}
+
+.dif{
+    background: coral;
+}
+
+.container .g-4 ul li{
+    list-style: none;
+}
+/* contact */
+.p-5 .row .sm{
+    font-size: 2rem!important;
+    border: 1px solid coral;
+    padding: .5rem 1rem;
+    border-radius: 40px;
+} 
+.col-md-6 .card .sub{
+    padding: .5rem 9.8rem;
+} 
+
+/* footer */
+.container-fluid  .link{
+    list-style: none!important;
+    
+}
+.container-fluid  .link a{
+    text-decoration: none;
+    color:white !important;
+}
